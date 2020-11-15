@@ -1,11 +1,13 @@
-import React from 'react';
-import NameRandomiser from '../features/nameRandomiser';
-import './App.css';
+import React from "react";
+import NameRandomiser from "../features/nameRandomiser/nameRandomiser";
+import "../styles/index.scss"
 
 function App() {
   return (
     <div className="App">
-      <NameRandomiser></NameRandomiser>
+      <div>
+        <NameRandomiser></NameRandomiser>
+      </div>
     </div>
   );
 }
